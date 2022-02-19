@@ -11,6 +11,10 @@ const routes: Routes = [
     path: 'routing',
     loadChildren: () => import('../routingdemo/routingdemo.module').then(m => m.RoutingdemoModule)
   },
+  {
+    path: 'observables',
+    loadChildren: () => import('../observable/observable.module').then(m => m.ObservableModule)
+  },
   
 ];
 

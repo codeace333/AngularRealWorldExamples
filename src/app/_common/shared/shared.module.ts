@@ -3,8 +3,7 @@ import { CommonModule } from '@angular/common';
 import { CardComponent } from '../components/card.component';
 import { AngularMaterialModule } from '../angular-material/angular-material.module';
 import { RouterModule } from '@angular/router';
-
-
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -14,11 +13,13 @@ import { RouterModule } from '@angular/router';
     CommonModule,
     RouterModule,
     AngularMaterialModule,
+    HttpClientModule
   ],
   exports:[
     CardComponent,
     CommonModule,
-    AngularMaterialModule
+    AngularMaterialModule,
+    // HttpClientModule
   ]
 })
 export class SharedModule { }

@@ -7,6 +7,7 @@ import { SharedModule } from './_common/shared/shared.module';
 import { RoutingdemoModule } from './routingdemo/routingdemo.module';
 import { AppRoutingModule } from './_common/app-routing.module';
 import { HomeComponent } from './_common/components/home/home.component';
+import { ObservableModule } from './observable/observable.module';
 
 @NgModule({
   declarations: [
@@ -18,11 +19,16 @@ import { HomeComponent } from './_common/components/home/home.component';
     AppRoutingModule,
     SharedModule,
     BrowserAnimationsModule,
-    RoutingdemoModule
+    RoutingdemoModule,
+    ObservableModule,
   ],
   providers: [
     {provide: LocationStrategy, useClass: HashLocationStrategy},
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  constructor(){
+    
+  }
+ }

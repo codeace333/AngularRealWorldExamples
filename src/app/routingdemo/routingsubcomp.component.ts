@@ -13,7 +13,6 @@ export class RoutingsubcompComponent {
   childCompModule: Array<Componentmodule>;
 
   constructor(private _subComp: SubcomponentsService) {
-    console.log('ngOnInit RoutingsubcompComponent constructor');
     this._subComp.arrmixSubComModule$.subscribe(data => this.childCompModule = data[0]['children']);
     this._subComp.getChildComp(this.parentRoute);
   }

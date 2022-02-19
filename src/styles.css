@@ -352,3 +352,15 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     width: 250px;
     background-color: #32e55a;
   }
+
+  .left-sidebar-child .mat-card.active-link{
+    display:inline-table !important;
+    margin: 15px;
+    width: 250px;
+    background-color: #7cc2b6;
+  }
+
+  .left-sidebar-child .mat-card{
+    background-color: #65666a;
+  }
+  

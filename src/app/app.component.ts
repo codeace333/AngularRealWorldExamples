@@ -12,7 +12,6 @@ export class AppComponent implements OnInit {
   arrmixComponentLists: Array<Componentmodule>;
 
    constructor(private _subComp: SubcomponentsService) {
-    console.log('constructor AppComponent constructor');
     this.arrmixComponentLists =this._subComp.getAllComModule();
   }
 

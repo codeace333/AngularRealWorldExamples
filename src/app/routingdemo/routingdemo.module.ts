@@ -24,6 +24,5 @@ import { NestedroutingComponent } from './subcomponents/nestedrouting/nestedrout
 })
 export class RoutingdemoModule {
   constructor(){
-    console.log('routing module');
   }
  }
