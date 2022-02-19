@@ -34,9 +34,7 @@ export class SubcomponentsService {
       {
         name: 'Promises', description: 'Learn More Promises In Details', path: '/promises',
         children: [
-          { name: 'Simple Promise', description: 'Learn More Simple Promise In Details', path: 'promise' },
-          { name: 'Promises with Then ', description: 'Learn More Promises with Then In Details', path: 'promisewiththen' },
-          { name: 'Promises with Catch', description: 'Learn More Promises with Catch In Details', path: 'promisewithcatch' },
+          { name: 'Promise Examples', description: 'Learn More Simple Promise In Details', path: 'promise' },
         ]
       },
       {

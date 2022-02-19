@@ -15,7 +15,10 @@ const routes: Routes = [
     path: 'observables',
     loadChildren: () => import('../observable/observable.module').then(m => m.ObservableModule)
   },
-  
+  {
+    path: 'promises',
+    loadChildren: () => import('../promises/promises.module').then(m => m.PromisesModule)
+  },
 ];
 
 @NgModule({
