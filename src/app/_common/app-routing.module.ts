@@ -19,6 +19,10 @@ const routes: Routes = [
     path: 'promises',
     loadChildren: () => import('../promises/promises.module').then(m => m.PromisesModule)
   },
+  {
+    path: 'services',
+    loadChildren: () => import('../services/services.module').then(m => m.ServicesModule)
+  },
 ];
 
 @NgModule({

@@ -1,0 +1,14 @@
+<h3>This is Services Example Home Page Component</h3>
+
+<div class="sub-content" role="main">
+
+    <div class="left-sidebar-child">
+        <ng-container *ngIf="childCompModule">
+            <app-card [arrmixLists]=childCompModule></app-card>
+            
+        </ng-container>
+    </div>
+    <div class="right-content-child">
+        <router-outlet></router-outlet>
+    </div>
+</div>

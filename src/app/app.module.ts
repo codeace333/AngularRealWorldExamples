@@ -8,6 +8,8 @@ import { RoutingdemoModule } from './routingdemo/routingdemo.module';
 import { AppRoutingModule } from './_common/app-routing.module';
 import { HomeComponent } from './_common/components/home/home.component';
 import { ObservableModule } from './observable/observable.module';
+import { WihtoutprovideinService } from './services/services/wihtoutprovidein.service';
+import { AppmoduleAndServicemoduleService } from './services/services/appmodule-and-servicemodule.service';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,8 @@ import { ObservableModule } from './observable/observable.module';
   ],
   providers: [
     {provide: LocationStrategy, useClass: HashLocationStrategy},
+    WihtoutprovideinService,
+    AppmoduleAndServicemoduleService
   ],
   bootstrap: [AppComponent]
 })

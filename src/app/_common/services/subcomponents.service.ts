@@ -40,10 +40,7 @@ export class SubcomponentsService {
       {
         name: 'Services', description: 'Learn More Services In Details', path: '/services',
         children: [
-          { name: 'Root Inject', description: 'Learn More Root Inject In Details', path: 'rootInject' },
-          { name: 'Module wise  ', description: 'Learn More Module wise In Details', path: 'modulewise' },
-          { name: 'Common Services', description: 'Learn More Common Services In Details', path: 'commonservice' },
-          { name: 'Without ProvideIn', description: 'Learn More Without ProvideIn In Details', path: 'withoutprovidein' },
+          { name: 'Services Examples', description: 'Learn More Root Inject In Details', path: 'servicesexamples' },
         ]
       },
       {
