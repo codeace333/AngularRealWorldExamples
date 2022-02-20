@@ -364,3 +364,9 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     background-color: #65666a;
   }
   
+  .clearfix{
+    clear:both;
+  }
+  .mt-70{
+    margin-top: 70px;
+  }

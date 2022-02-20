@@ -46,19 +46,13 @@ export class SubcomponentsService {
       {
         name: 'Intercept', description: 'Learn More intercept In Details', path: '/intercept',
         children: [
-          { name: 'Root Inject', description: 'Learn More Root Inject In Details', path: 'rootInject' },
-          { name: 'Module wise  ', description: 'Learn More Module wise In Details', path: 'modulewise' },
-          { name: 'Common Services', description: 'Learn More Common Services In Details', path: 'commonservice' },
-          { name: 'Without ProvideIn', description: 'Learn More Without ProvideIn In Details', path: 'withoutprovidein' },
+          { name: 'Interceptor', description: 'Learn More Root Inject In Details', path: 'interceptToken' },
         ]
       },
       {
-        name: 'Directives', description: 'Learn More sirectives In Details', path: '/sirectives',
+        name: 'Directives', description: 'Learn More sirectives In Details', path: '/directives',
         children: [
-          { name: 'Root Inject', description: 'Learn More Root Inject In Details', path: 'rootInject' },
-          { name: 'Module wise  ', description: 'Learn More Module wise In Details', path: 'modulewise' },
-          { name: 'Common Services', description: 'Learn More Common Services In Details', path: 'commonservice' },
-          { name: 'Without ProvideIn', description: 'Learn More Without ProvideIn In Details', path: 'withoutprovidein' },
+          { name: 'Directives Example', description: 'Learn More Root Inject In Details', path: 'directivesExample' },
         ]
       },
       {

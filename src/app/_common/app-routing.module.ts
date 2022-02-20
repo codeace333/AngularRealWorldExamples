@@ -23,6 +23,14 @@ const routes: Routes = [
     path: 'services',
     loadChildren: () => import('../services/services.module').then(m => m.ServicesModule)
   },
+  {
+    path: 'intercept',
+    loadChildren: () => import('../intercept/intercept.module').then(m => m.InterceptModule)
+  },
+  {
+    path: 'directives',
+    loadChildren: () => import('../directives/directives.module').then(m => m.DirectivesModule)
+  },
 ];
 
 @NgModule({
