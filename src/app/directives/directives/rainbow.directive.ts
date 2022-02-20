@@ -13,10 +13,10 @@ export class RainbowDirective {
     constructor(
         private el: ElementRef,
         private renderer: Renderer2
-      ) {
+    ) {
         console.log(this.el)
-        
-      }
+
+    }
 
     possibleColors = [
         'darksalmon', 'hotpink', 'lightskyblue', 'goldenrod', 'peachpuff',
